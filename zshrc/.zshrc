@@ -117,3 +117,4 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 export PATH=/opt/homebrew/bin:/opt/homebrew/opt/openjdk/bin:/Users/nunzio/bin:/usr/local/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
