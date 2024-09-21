@@ -120,4 +120,4 @@ export PATH=/opt/homebrew/bin:/opt/homebrew/opt/openjdk/bin:/Users/nunzio/bin:/u
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 export EDITOR=nano
 # set JAVA_HOME for mvn
-export JAVA_HOME=$(/usr/libexec/java_home )
+export JAVA_HOME=$(/usr/libexec/java_home ) ddddd
