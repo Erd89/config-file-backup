@@ -115,9 +115,13 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# add new entry for PATH env
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 export PATH=/opt/homebrew/bin:/opt/homebrew/opt/openjdk/bin:/Users/nunzio/bin:/usr/local/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+
 export EDITOR=nano
+
 # set JAVA_HOME for mvn
 export JAVA_HOME=$(/usr/libexec/java_home )
