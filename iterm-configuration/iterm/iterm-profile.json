@@ -86,7 +86,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.27843137254901962
   },
-  "Transparency" : 0.25351839539007082,
+  "Transparency" : 0.30351839539007086,
   "Use Bright Bold" : true,
   "Horizontal Spacing" : 1,
   "Ansi 13 Color (Light)" : {
@@ -289,7 +289,7 @@
     "Red Component" : 0.49031879989999999
   },
   "Faint Text Alpha (Dark)" : 1,
-  "Blur Radius" : 20.350639960106374,
+  "Blur Radius" : 22.350639960106374,
   "Rows" : 50,
   "Background Color (Light)" : {
     "Red Component" : 0.93725490196078431,
@@ -480,7 +480,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.30980392156862746
   },
-  "Minimum Contrast (Dark)" : 0.30092865566037735,
+  "Minimum Contrast (Dark)" : 0.27312205188679251,
   "Smart Cursor Color (Light)" : false,
   "Ansi 7 Color" : {
     "Green Component" : 0.81568628549575806,
@@ -722,6 +722,13 @@
     "0x2f-0x200000" : {
       "Action" : 12,
       "Text" : "\/"
+    },
+    "0xf703-0x320000-0x7c" : {
+      "Version" : 2,
+      "Apply Mode" : 0,
+      "Action" : 45,
+      "Text" : "0",
+      "Escaping" : 2
     },
     "0xf704-0x20000" : {
       "Action" : 10,
