@@ -2,22 +2,23 @@
 # Appearance Settings
 # ====================
 
-# Sets the terminal theme. Example: catppuccin-mocha, dracula, nord, etc.
+#theme
 theme = catppuccin-mocha
 
 # Font and text settings
 font-family = Fira Code
 font-size = 13
 
-# Adjusts the appearance of the window.
+# Adjusts the appearance of the window
 window-theme = auto
 #background-opacity = 0.9
-# background-blur-radius = 20
-window-padding-balance = true
+#background-blur-radius = 20
+
 
 # Ensures text remains legible by adding a minimum contrast level.
 minimum-contrast = 3
 
+window-colorspace = display-p3
 
 # ====================
 # General Behavior
@@ -26,8 +27,9 @@ minimum-contrast = 3
 # Enables shell integration features like elevated commands (e.g., sudo).
 shell-integration-features = sudo
 
-# Cursor appearance (options: block, underline, beam).
-cursor-style = block
-
 # Disables confirmation when closing a window or tab.
 confirm-close-surface = false
+
+
+window-inherit-working-directory = false
+working-directory = home
