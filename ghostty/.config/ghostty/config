@@ -5,17 +5,16 @@
 #theme
 theme = catppuccin-mocha
 
-# Font and text settings
+#Font and text settings
 font-family = Fira Code
 font-size = 13
 
-# Adjusts the appearance of the window
+#Adjusts the appearance of the window
 window-theme = auto
 #background-opacity = 0.9
-#background-blur-radius = 20
+#background-blur-radius = 15
 
-
-# Ensures text remains legible by adding a minimum contrast level.
+#Ensures text remains legible by adding a minimum contrast level.
 minimum-contrast = 3
 
 window-colorspace = display-p3
@@ -24,12 +23,11 @@ window-colorspace = display-p3
 # General Behavior
 # ====================
 
-# Enables shell integration features like elevated commands (e.g., sudo).
+#Enables shell integration features like elevated commands (e.g., sudo).
 shell-integration-features = sudo
 
-# Disables confirmation when closing a window or tab.
+#Disables confirmation when closing a window or tab
 confirm-close-surface = false
 
-
-window-inherit-working-directory = false
 working-directory = home
+window-inherit-working-directory = false
