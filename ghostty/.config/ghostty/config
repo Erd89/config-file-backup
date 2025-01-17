@@ -6,7 +6,7 @@
 theme = catppuccin-mocha
 
 #Font and text settings
-font-family = Fira Code
+font-family = FiraCode Nerd Font
 font-size = 13
 
 #Adjusts the appearance of the window
