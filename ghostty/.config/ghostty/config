@@ -11,8 +11,8 @@ font-size = 13
 
 #Adjusts the appearance of the window
 window-theme = auto
-#background-opacity = 0.9
-#background-blur-radius = 15
+background-opacity = 0.9
+background-blur-radius = 15
 
 #Ensures text remains legible by adding a minimum contrast level.
 minimum-contrast = 3
