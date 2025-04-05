@@ -1,6 +1,6 @@
 # Theme and Appearance
 theme = catppuccin-mocha
-font-family = FiraCode Nerd Font
+font-family = FiraCode Nerd Font Mono Regular
 font-size = 13
 window-theme = auto
 background-opacity = 0.8
