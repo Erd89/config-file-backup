@@ -3,9 +3,9 @@ theme = catppuccin-mocha
 font-family = FiraCode Nerd Font
 font-size = 14
 window-theme = auto
-background-opacity = 0.9
+background-opacity = 0.89
 background-blur-radius = 10
-minimum-contrast = 3
+minimum-contrast = 4
 window-colorspace = display-p3
 
 # Behavior Settings
