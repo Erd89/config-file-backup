@@ -113,7 +113,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#for ghstty color support
+#for ghostty color support
 if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
     export TERM=xterm-256color
 fi
@@ -132,3 +132,7 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 
 # To customize prompt, run `p10k configure` or edit ~/stow_directory/p10k/.p10k.zsh.
 [[ ! -f ~/stow_directory/p10k/.p10k.zsh ]] || source ~/stow_directory/p10k/.p10k.zsh
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
