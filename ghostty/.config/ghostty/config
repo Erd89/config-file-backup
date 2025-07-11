@@ -1,6 +1,6 @@
 # Theme and Appearance
 theme = Atom
-font-family = FiraCode Nerd Font
+font-family = FiraCode Nerd Font Mono
 font-size = 14
 window-theme = auto
 background-opacity = 0.95
