@@ -136,3 +136,8 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/nunzio/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
