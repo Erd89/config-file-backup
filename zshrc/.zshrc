@@ -81,6 +81,7 @@ plugins=(
 git
 zsh-autosuggestions
 zsh-syntax-highlighting
+gcloud
 )
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
@@ -113,14 +114,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#for ghostty color support
-if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
-    export TERM=xterm-256color
-fi
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 # add new entry for PATH env
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/Users/nunzio/bin:/usr/local/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:$PATH"
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
@@ -135,9 +128,4 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 
 
 # Load Angular CLI autocompletion.
-source <(ng completion script)
-# The following lines have been added by Docker Desktop to enable Docker CLI completions.
-fpath=(/Users/nunzio/.docker/completions $fpath)
-autoload -Uz compinit
-compinit
-# End of Docker CLI completions
+#source <(ng completion script)
