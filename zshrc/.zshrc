@@ -120,12 +120,15 @@ export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
 export EDITOR=nano
 
-# set JAVA_HOME for mvn
-export JAVA_HOME=$(/usr/libexec/java_home)
-
 # To customize prompt, run `p10k configure` or edit ~/stow_directory/p10k/.p10k.zsh.
 [[ ! -f ~/stow_directory/p10k/.p10k.zsh ]] || source ~/stow_directory/p10k/.p10k.zsh
 
-
 # Load Angular CLI autocompletion.
 #source <(ng completion script)
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# set JAVA_HOME for mvn
+export JAVA_HOME="$SDKMAN_DIR/candidates/java/current"
