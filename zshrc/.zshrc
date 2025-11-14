@@ -82,6 +82,7 @@ git
 zsh-autosuggestions
 zsh-syntax-highlighting
 gcloud
+mvn
 )
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
