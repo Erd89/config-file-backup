@@ -133,3 +133,5 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 # set JAVA_HOME for mvn
 export JAVA_HOME="$SDKMAN_DIR/candidates/java/current"
+
+export PATH="$HOME/.local/bin:$PATH"
