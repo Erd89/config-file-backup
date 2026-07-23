@@ -79,6 +79,7 @@ DISABLE_MAGIC_FUNCTIONS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 git
+kubectl
 zsh-autosuggestions
 zsh-syntax-highlighting
 gcloud
