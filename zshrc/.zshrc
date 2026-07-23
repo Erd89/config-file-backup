@@ -79,6 +79,7 @@ DISABLE_MAGIC_FUNCTIONS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 git
+docker
 kubectl
 zsh-autosuggestions
 zsh-syntax-highlighting
@@ -115,6 +116,10 @@ export LANG=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Kubernetes helpers
+alias k9s-cluster='gcloud config set account nunzio.dinapoli@maggioli.it >/dev/null && k9s'
+alias k9s-kind='export KUBECONFIG="$HOME/.kube/kind/bari-team-config" && k9s'
 
 # add new entry for PATH env
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/Users/nunzio/bin:/usr/local/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:$PATH"
